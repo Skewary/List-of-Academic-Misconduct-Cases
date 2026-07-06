@@ -31,6 +31,13 @@
 
 结构化版本见 [`data/seed_cases.csv`](data/seed_cases.csv)。
 
+
+
+## 兼容 geng-academic-fraud-detector
+
+本仓库可以兼容导入 [`wooly99/geng-academic-fraud-detector`](https://github.com/wooly99/geng-academic-fraud-detector) 生成的 Markdown 打假报告。该工具输出的「综合评定」「详细发现」「位置/描述/证据/判断逻辑」可通过 [`scripts/import_geng_detector_report.py`](scripts/import_geng_detector_report.py) 转成本仓库的证据页草稿，并登记到 [`data/tool_reports.csv`](data/tool_reports.csv)。详细流程见 [`integrations/geng-academic-fraud-detector/README.md`](integrations/geng-academic-fraud-detector/README.md)。
+
+
 ## 快速开始：新增一位人物
 
 1. 复制 [`templates/person.md`](templates/person.md) 到 `people/<slug>/index.md`。
