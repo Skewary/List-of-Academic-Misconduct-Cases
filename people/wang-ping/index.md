@@ -23,7 +23,11 @@
 
 ## 下一步
 
+
 - [x] 已尝试下载论文正文和补充材料；当前 shell 网络访问 Nature 返回代理 403，详见 [`../../data/download_attempts.csv`](../../data/download_attempts.csv)。
+=======
+- [ ] 下载论文正文和补充材料。
+
 - [ ] 建立 `papers/` 下的论文条目。
 - [ ] 截取具体图号、表号和数据列。
 - [ ] 在 `evidence/` 中为每个异常点建立可跳转证据页。
