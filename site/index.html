@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>学术不端案例名单</title>
+  <style>
+    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; max-width: 980px; margin: 0 auto; padding: 2rem; color: #1f2937; }
+    header { border-bottom: 1px solid #e5e7eb; margin-bottom: 2rem; }
+    h1 { color: #111827; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+    .card { border: 1px solid #e5e7eb; border-radius: 12px; padding: 1rem; background: #fafafa; }
+    .card a { font-weight: 700; color: #2563eb; text-decoration: none; }
+    .notice { background: #fff7ed; border: 1px solid #fed7aa; border-radius: 12px; padding: 1rem; }
+    code { background: #f3f4f6; padding: 0.1rem 0.3rem; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>学术不端案例名单</h1>
+    <p>面向长期维护的 Markdown + CSV + 静态 HTML 资料库。</p>
+  </header>
+
+  <section class="notice">
+    <strong>说明：</strong>本项目用于整理公开证据与线索，不替代机构调查或司法认定。新增条目时请保留可跳转证据链接，并标注待核实信息。
+  </section>
+
+  <h2>资料入口</h2>
+  <div class="grid">
+    <div class="card"><a href="../people/">人物目录</a><p>每位人物一个独立目录，包含简介、论文、证据和截图。</p></div>
+    <div class="card"><a href="../evidence/">证据索引</a><p>汇总视频、通报、论文、截图、数据集等证据。</p></div>
+    <div class="card"><a href="../papers/">论文目录</a><p>维护论文元数据、问题类型和处理状态。</p></div>
+    <div class="card"><a href="../data/">表格数据</a><p>CSV 数据便于检索、统计和后续生成网页。</p></div>
+    <div class="card"><a href="../templates/">模板</a><p>新增人物、论文、证据、截图时复制使用。</p></div>
+    <div class="card"><a href="../docs/maintenance.md">维护规范</a><p>命名、证据、表述和检查清单。</p></div>
+  </div>
+</body>
+</html>
