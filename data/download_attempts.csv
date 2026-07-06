@@ -1,0 +1,9 @@
+person_id,paper_id,item_type,url,local_path,status,notes
+wang-ping,s41586-024-08248-5,article-pdf,https://www.nature.com/articles/s41586-024-08248-5.pdf,papers/downloads/wang-ping/s41586-024-08248-5.pdf,failed,URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
+wang-ping,s41586-024-08248-5,article-html,https://www.nature.com/articles/s41586-024-08248-5,papers/downloads/wang-ping/s41586-024-08248-5.html,failed,URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
+chen-quan,s43018-023-00715-8,article-pdf,https://www.nature.com/articles/s43018-023-00715-8.pdf,papers/downloads/chen-quan/s43018-023-00715-8.pdf,failed,URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
+chen-quan,s43018-023-00715-8,pubmed-html,https://pubmed.ncbi.nlm.nih.gov/38291304/,papers/downloads/chen-quan/pubmed-38291304.html,failed,URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
+kang-tiebang,s41556-020-0522-z,article-pdf,https://www.nature.com/articles/s41556-020-0522-z.pdf,papers/downloads/kang-tiebang/s41556-020-0522-z.pdf,failed,URLError: <urlopen error Tunnel connection failed: 403 Forbidden>
+kuang-dongming,unknown,article,待补充,待补充,not_attempted,当前条目尚未确认具体论文 DOI/URL，不能可靠下载正文或补充材料。
+su-jiacan,unknown,article,待补充,待补充,not_attempted,当前条目尚未确认具体论文 DOI/URL，不能可靠下载正文或补充材料。
+chang-lingqian,unknown,article,待补充,待补充,not_attempted,当前条目尚未确认具体论文 DOI/URL，不能可靠下载正文或补充材料。
